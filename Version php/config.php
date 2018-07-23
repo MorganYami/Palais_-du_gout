@@ -1,6 +1,6 @@
 <?php 
-    $cheminRoot = "http://localhost/Palais_du_gout/";
-    $cheminImg = "http://localhost/Palais_du_gout/img/";
+    $cheminRoot = "http://localhost/Palais_du_gout/Version%20php/";
+    $cheminImg = "http://localhost/Palais_du_gout/Version%20php/img/";
 ?>
 
 <title>Palais du goût</title>
