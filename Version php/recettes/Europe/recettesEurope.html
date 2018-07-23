@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Palais du goût</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./img/icons8-cuisinier-homme-50.png" type="image/png">
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div id="banniere">
+            <img src="./img/palait_du_gout.png" alt="logo palait du goût">
+        </div>
+        <nav class="uk-navbar-container" uk-navbar>
+            <div class="nav-overlay uk-navbar-left">
+
+                <ul class="uk-navbar-nav">
+                    <li>
+                        <a href="./index.html">Accueil</a>
+                    </li>
+                    <li class="uk-active">
+                        <a href="./continents.html">Recettes</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li>
+                                    <a href="./livre_dor.html">Livre d'or</a>
+                                </li>
+                                <li>
+                                    <a href="./proposition.html">Proposer une recette</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-overlay uk-navbar-right">
+                <a class="uk-navbar-toggle" uk-search-icon uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+            </div>
+            <div class="nav-overlay uk-navbar-left uk-flex-1" hidden>
+                <div class="uk-navbar-item uk-width-expand">
+                    <form class="uk-search uk-search-navbar uk-width-1-1">
+                        <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+                    </form>
+                </div>
+                <a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Europe</h1>
+        <div class="uk-section">
+            <div class="uk-container centre">
+                <ul uk-accordion="multiple: true">
+                    <li>
+                        <a class="uk-accordion-title" href="#">Allemagne</a>
+                        <div class="uk-accordion-content">
+                            <p>Recette 1</p>
+                            <p>Recette 2</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-accordion-title" href="#">Espagne</a>
+                        <div class="uk-accordion-content">
+                            <p>Recette 1</p>
+                            <p>Recette 2</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-accordion-title" href="#">France</a>
+                        <div class="uk-accordion-content">
+                            <p>Recette 1</p>
+                            <p>Recette 2</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-accordion-title" href="#">Italie</a>
+                        <div class="uk-accordion-content">
+                            <p>Recette 1</p>
+                            <p>Recette 2</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="backcolor1">
+        <div class="uk-section">
+            <div class="uk-container">
+                <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                    <div>
+                        <a href="">Mentions légales</a>
+                    </div>
+                    <div>
+                        <a href="">Réglement du site</a>
+                    </div>
+                    <div>
+                        <p>
+                            Email:
+                            <a href="mailto:admin@palais_du_gout.com">admin@palais_du_gout.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
