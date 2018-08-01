@@ -1,5 +1,5 @@
 var i = 0;
-var data_file = "./js/commentaires.json";
+var data_file = "./assets/js/commentaires.json";
 var http_request = new XMLHttpRequest();
 
 try {

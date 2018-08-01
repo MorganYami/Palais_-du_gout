@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <?php
-        include "../config.php";
-    ?>
-</head>
-
-<body>
-    <?php
-        include "./navRecettes.php";
-    ?>
-
-    <main>
         <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
             <div>
                 <div class="uk-card uk-card-default uk-card-body">
@@ -40,11 +26,11 @@
             <div>
                 <div class="uk-card uk-card-default uk-card-body">
                     <h3>
-                        <a href="./Asie/recettesAsie.php">Asie</a>
+                        <a href="./index.php?recettesAsie">Asie</a>
                     </h3>
                     <a href="#">Chine</a>
                     <a href="#">Corée</a>
-                    <a href="./Asie/Japon/pageJapon.php">Japon</a>
+                    <a href="./index.php?pageJapon">Japon</a>
                     <a href="#">Vietnam</a>
                 </div>
             </div>
@@ -85,10 +71,3 @@
                 </div>
             </div>
         </div>
-    </main>
-
-    <?php include "../footer.php"; ?>
-
-</body>
-
-</html>
